@@ -17,6 +17,7 @@ To generate service embedding, run
 
 ``
 python experiments/prepare_svc_embedding.py
+
 python node2vec/src/main.py --input graph/ppd_eICU.edgelist --output emb/ppd_eICU.emd
 ``
 
