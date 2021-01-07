@@ -29,7 +29,7 @@ torch==1.7.1
 
 ### Generate ME2Vec embeddings
 
-The implementation of *node2vec* is from [aditya-grover](https://github.com/aditya-grover)/**[node2vec](https://github.com/aditya-grover/node2vec)**.
+The implementation of *node2vec* is from [aditya-grover](https://github.com/aditya-grover)/**[node2vec](https://github.com/aditya-grover/node2vec)**. It should be downloaded to the repo folder with the name `node2vec`.
 
 To generate service embedding, run
 ```python
