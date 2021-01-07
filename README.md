@@ -50,3 +50,15 @@ python experiments/line_emb_train.py
 python experiments/metapath2vec_emb_train.py --input saved_data/baseline/graph_metapath.pkl --output saved_data/baseline/baseline_emb_metapath2vec.emd
 ```
 
+### Experiment: Readmission prediction
+
+```python
+python experiments/readmission_prediction.py
+```
+
+### Experiment: Sequential learning using pretrained emebeddings
+
+```python
+python experiments/sequential_learning_finetune.py 
+```
+
