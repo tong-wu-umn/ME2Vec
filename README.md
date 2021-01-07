@@ -15,11 +15,10 @@ Tong Wu<sup>1</sup>, Yunlong Wang<sup>1*</sup>, Yue Wang<sup>1</sup>, Emily Zhao
 
 To generate service embedding, run
 
-``
+```python
 python experiments/prepare_svc_embedding.py
-
 python node2vec/src/main.py --input graph/ppd_eICU.edgelist --output emb/ppd_eICU.emd
-``
+```
 
 To generate doctor embedding, run
 
