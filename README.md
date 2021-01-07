@@ -25,3 +25,26 @@ python experiments/prepare_doc_embedding.py
 python experiments/doc_emb_train.py
 ```
 
+To generate patient embedding, run
+```python
+python experiments/prepare_pat_embedding.py
+python experiments/pat_emb_train.py
+```
+
+### Generate baseline embeddings
+
+*node2vec*:
+```python
+python node2vec/src/main.py --input graph/baseline_node2vec.edgelist --output emb/baseline_node2vec_emb.emd
+```
+
+*LINE*:
+```python
+python experiments/line_emb_train.py
+```
+
+*metapath2vec*:
+```python
+python experiments/metapath2vec_emb_train.py --input saved_data/baseline/graph_metapath.pkl --output saved_data/baseline/baseline_emb_metapath2vec.emd
+```
+
