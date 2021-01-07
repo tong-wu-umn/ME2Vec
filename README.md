@@ -35,7 +35,7 @@ python experiments/pat_emb_train.py
 
 ### Generate baseline embeddings
 
-Run the follwing script in the beginning:
+Run the follwing script first:
 ```python
 python experiments/prepare_baseline_embedding.py
 ```
