@@ -13,6 +13,20 @@ Once obtaining the permission, download `patient.csv`, `admissionDx.csv`, `diagn
 
 ## How to use
 
+### Required packages
+
+```
+tqdm==4.51.0
+gensim==3.8.3
+matplotlib==3.3.3
+networkx==2.5
+numpy==1.19.5
+pandas==1.2.0
+scikit_learn==0.24.0
+stellargraph==1.2.1
+torch==1.7.1
+```
+
 ### Generate ME2Vec embeddings
 
 The implementation of *node2vec* is from [aditya-grover](https://github.com/aditya-grover)/**[node2vec](https://github.com/aditya-grover/node2vec)**.

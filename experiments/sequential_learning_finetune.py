@@ -197,7 +197,7 @@ def test(epoch, model, args, padded_jny, pat_lbls):
     return y_pred_total[1:].numpy(), test_loss
 
 def save_best_model(model, PATH):    
-    torch.save('model_state_dict': model.state_dict(), PATH)
+    torch.save({'model_state_dict': model.state_dict()}, PATH)
 
 def main(args):
 
