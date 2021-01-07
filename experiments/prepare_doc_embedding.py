@@ -16,7 +16,7 @@ from stellargraph import IndexedArray, StellarGraph
 # Create doctor-service table
 ##############################################################
 
-doc_table = pd.read_csv('eICU_data/carePlanCareProvider.csv')
+doc_table = pd.read_csv('saved_data/carePlanCareProvider.csv')
 doc_table = doc_table.dropna(subset=['specialty'])
 
 enc_spec = doc_table.groupby('patientunitstayid')['specialty'] \

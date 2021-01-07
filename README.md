@@ -9,11 +9,11 @@ Tong Wu<sup>1</sup>, Yunlong Wang<sup>1*</sup>, Yue Wang<sup>1</sup>, Emily Zhao
 
 [**The eICU Collaborative Research Database**](https://eicu-crd.mit.edu/)
 
-Once obtaining the permission, download `patient.csv`, `admissionDx.csv`, `diagnosis.csv`, `treatment.csv`, and `carePlanCareProvider.csv` to the folder `eICU_data`.
+Once obtaining the permission, download `patient.csv`, `admissionDx.csv`, `diagnosis.csv`, `treatment.csv`, and `carePlanCareProvider.csv` to the folder `saved_data`.
 
 ## How to use
 
-### Required packages
+### Dependencies
 
 ```
 tqdm==4.51.0

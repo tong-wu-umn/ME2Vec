@@ -17,10 +17,10 @@ from stellargraph import IndexedArray, StellarGraph
 ##############################################################
 
 # load all necessary tables
-pat_table_orig = pd.read_csv('eICU_data/patient.csv')
-admissionDx_table_orig = pd.read_csv('eICU_data/admissionDx.csv')
-diag_table_orig = pd.read_csv('eICU_data/diagnosis.csv')
-treatment_table_orig = pd.read_csv('eICU_data/treatment.csv')
+pat_table_orig = pd.read_csv('saved_data/patient.csv')
+admissionDx_table_orig = pd.read_csv('saved_data/admissionDx.csv')
+diag_table_orig = pd.read_csv('saved_data/diagnosis.csv')
+treatment_table_orig = pd.read_csv('saved_data/treatment.csv')
 
 # merge pat diag and treatment tables
 pat_table = pat_table_orig[['uniquepid','patientunitstayid','patienthealthsystemstayid','gender','age','ethnicity',
