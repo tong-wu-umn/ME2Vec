@@ -15,10 +15,12 @@ Once obtaining the permission, download `patient.csv`, `admissionDx.csv`, `diagn
 
 ### Generate ME2Vec embeddings
 
+The implementation of *node2vec* is from [aditya-grover](https://github.com/aditya-grover)/**[node2vec](https://github.com/aditya-grover/node2vec)**.
+
 To generate service embedding, run
 ```python
 python experiments/prepare_svc_embedding.py
-python node2vec/src/main.py --input graph/ppd_eICU.edgelist --output emb/ppd_eICU.emd
+python node2vec/src/main.py --input graph/ppd_eICU.edgelist --output emb/ppd_eICU.emd --dimensions 128 --walk-length 100 --num-walks 10 --window-size 20 --iter 150 --workers 8 --p 4 --q 1
 ```
 
 To generate doctor embedding, run
@@ -42,7 +44,7 @@ python experiments/prepare_baseline_embedding.py
 
 *node2vec*:
 ```python
-python node2vec/src/main.py --input graph/baseline_node2vec.edgelist --output emb/baseline_node2vec_emb.emd
+python node2vec/src/main.py --input graph/baseline_node2vec.edgelist --output emb/baseline_node2vec_emb.emd --dimensions 128 --walk-length 100 --num-walks 10 --window-size 20 --iter 150 --workers 8 --p 4 --q 1
 ```
 
 *LINE*:
