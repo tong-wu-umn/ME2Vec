@@ -9,6 +9,8 @@ Tong Wu<sup>1</sup>, Yunlong Wang<sup>1*</sup>, Yue Wang<sup>1</sup>, Emily Zhao
 
 [**The eICU Collaborative Research Database**](https://eicu-crd.mit.edu/)
 
+Once obtaining the permission, download `patient.csv, admissionDx.csv, diagnosis.csv, treatment.csv, carePlanCareProvider.csv` to the folder `eICU_data`.
+
 ## How to use
 
 ### Generate ME2Vec embeddings
