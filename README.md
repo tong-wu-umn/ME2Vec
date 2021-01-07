@@ -35,6 +35,11 @@ python experiments/pat_emb_train.py
 
 ### Generate baseline embeddings
 
+Run the follwing script in the beginning:
+```python
+python experiments/prepare_baseline_embedding.py
+```
+
 *node2vec*:
 ```python
 python node2vec/src/main.py --input graph/baseline_node2vec.edgelist --output emb/baseline_node2vec_emb.emd
@@ -49,6 +54,8 @@ python experiments/line_emb_train.py
 ```python
 python experiments/metapath2vec_emb_train.py --input saved_data/baseline/graph_metapath.pkl --output saved_data/baseline/baseline_emb_metapath2vec.emd
 ```
+
+For *nonnegative matrix factorization (NMF)* and *spectral clustering (SC)*, their embeddings are generated in the experiment code.
 
 ### Experiment: Readmission prediction
 
