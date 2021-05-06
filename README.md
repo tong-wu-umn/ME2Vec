@@ -1,5 +1,7 @@
 # ME2Vec: A Graph-Based Hierarchical Medical Embedding Framework for Healthcare Applications
 
+This repo is for paper [**Leveraging graph-based hierarchical medical entity embedding for healthcare applications**](https://www.nature.com/articles/s41598-021-85255-w) published in *Scientific Reports*
+
 ## Authors
 Tong Wu<sup>1</sup>, Yunlong Wang<sup>1*</sup>, Yue Wang<sup>1</sup>, Emily Zhao<sup>1</sup>, Yilian Yuan<sup>1</sup>
 
